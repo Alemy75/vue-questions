@@ -137,6 +137,7 @@ export default {
 			this.currentQuestion = 0
 			this.isFinished = false
 			this.barWidth = 0
+			this.score = 0
 		}
 	},
 };
