@@ -143,11 +143,11 @@ export default {
 </script>
 
 <template>
-	<div class="mt-[100px] w-[600px] min-h-[300px] border border-gray-100 bg-white mx-auto rounded-md">
+	<div class="mt-[10vh] max-w-[600px] min-h-[300px] border-gray-100 bg-white mx-auto rounded-md">
 		<div v-if="computedFinished" class="p-8 text-center">
 			<p class="text-gray-300">Ваш результат: {{ score }}</p>
 			<h1 class="text-1xl">Конец</h1>
-			<button @click="onFinish" class="py-2 px-4 text-white rounded-md mt-40 hover:bg-blue-500 bg-blue-400">Начать
+			<button @click="onFinish" class="py-2 px-4 text-white rounded-md mt-2 hover:bg-blue-500 bg-blue-600">Начать
 				сначала</button>
 		</div>
 		<div v-else class="p-8 text-center">
